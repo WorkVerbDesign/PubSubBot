@@ -1,0 +1,131 @@
+JSON RETURN
+https://dev.twitch.tv/docs/pubsub#receiving-messages
+
+Got Message: {"type":"RESPONSE","error":"","nonce":"e4t5v345nz3sm"}
+
+Got Message: {"type":"MESSAGE","data":{"topic":"channel-points-channel-v1.32178044","message":"{\"type\":\"reward-redeemed\",\"data\":{\"timestamp\":\"2020-03-27T21:16:58.829159864Z\",\"redemption\":{\"id\":\"57761544-6b42-4eda-a2c2-6fbdbe032446\",\"user\":{\"id\":\"32178044\",\"login\":\"oh_bother\",\"display_name\":\"oh_bother\"},\"channel_id\":\"32178044\",\"redeemed_at\":\"2020-03-27T21:16:58.802021302Z\",\"reward\":{\"id\":\"c7c7a7a2-b124-475f-aabe-741f9b85c638\",\"channel_id\":\"32178044\",\"title\":\"TEST\",\"prompt\":\"ITS A TEST GIMMIE JSON\",\"cost\":100000,\"is_user_input_required\":false,\"is_sub_only\":false,\"image\":null,\"default_image\":{\"url_1x\":\"https://static-cdn.jtvnw.net/custom-reward-images/default-1.png\",\"url_2x\":\"https://static-cdn.jtvnw.net/custom-reward-images/default-2.png\",\"url_4x\":\"https://static-cdn.jtvnw.net/custom-reward-images/default-4.png\"},\"background_color\":\"#FA2929\",\"is_enabled\":true,\"is_paused\":false,\"is_in_stock\":true,\"max_per_stream\":{\"is_enabled\":false,\"max_per_stream\":0},\"should_redemptions_skip_request_queue\":false},\"status\":\"UNFULFILLED\"}}}"}}
+
+Got Message: {"type":"MESSAGE","data":{"topic":"channel-points-channel-v1.32178044","message":"{\"type\":\"reward-redeemed\",\"data\":{\"timestamp\":\"2020-03-27T21:18:08.831999215Z\",\"redemption\":{\"id\":\"a0980dc1-b8b1-49f6-b820-fbf8268b2e5b\",\"user\":{\"id\":\"32178044\",\"login\":\"oh_bother\",\"display_name\":\"oh_bother\"},\"channel_id\":\"32178044\",\"redeemed_at\":\"2020-03-27T21:18:08.803659806Z\",\"reward\":{\"id\":\"c7c7a7a2-b124-475f-aabe-741f9b85c638\",\"channel_id\":\"32178044\",\"title\":\"TEST\",\"prompt\":\"ITS A TEST GIMMIE JSON\",\"cost\":100000,\"is_user_input_required\":false,\"is_sub_only\":false,\"image\":null,\"default_image\":{\"url_1x\":\"https://static-cdn.jtvnw.net/custom-reward-images/default-1.png\",\"url_2x\":\"https://static-cdn.jtvnw.net/custom-reward-images/default-2.png\",\"url_4x\":\"https://static-cdn.jtvnw.net/custom-reward-images/default-4.png\"},\"background_color\":\"#FA2929\",\"is_enabled\":true,\"is_paused\":false,\"is_in_stock\":true,\"max_per_stream\":{\"is_enabled\":false,\"max_per_stream\":0},\"should_redemptions_skip_request_queue\":false},\"status\":\"UNFULFILLED\"}}}"}}
+
+Got Message: { "type": "PONG" }
+
+
+Got Message: {"type":"MESSAGE","data":{"topic":"channel-points-channel-v1.32178044","message":"{\"type\":\"reward-redeemed\",\"data\":{\"timestamp\":\"2020-03-27T21:23:33.870902465Z\",\"redemption\":{\"id\":\"57920990-43a3-41d6-ba7a-f8943758e0fd\",\"user\":{\"id\":\"32178044\",\"login\":\"oh_bother\",\"display_name\":\"oh_bother\"},\"channel_id\":\"32178044\",\"redeemed_at\":\"2020-03-27T21:23:33.785473508Z\",\"reward\":{\"id\":\"c7c7a7a2-b124-475f-aabe-741f9b85c638\",\"channel_id\":\"32178044\",\"title\":\"TEST\",\"prompt\":\"ITS A TEST GIMMIE JSON\",\"cost\":100000,\"is_user_input_required\":true,\"is_sub_only\":false,\"image\":null,\"default_image\":{\"url_1x\":\"https://static-cdn.jtvnw.net/custom-reward-images/default-1.png\",\"url_2x\":\"https://static-cdn.jtvnw.net/custom-reward-images/default-2.png\",\"url_4x\":\"https://static-cdn.jtvnw.net/custom-reward-images/default-4.png\"},\"background_color\":\"#FA2929\",\"is_enabled\":true,\"is_paused\":false,\"is_in_stock\":true,\"max_per_stream\":{\"is_enabled\":false,\"max_per_stream\":0},\"should_redemptions_skip_request_queue\":false},\"user_input\":\"butts\",\"status\":\"UNFULFILLED\"}}}"}}
+
+Got Message: {"type":"MESSAGE","data":{"topic":"channel-points-channel-v1.32178044","message":"{\"type\":\"reward-redeemed\",\"data\":{\"timestamp\":\"2020-03-27T21:24:11.755375753Z\",\"redemption\":{\"id\":\"90cfce71-0182-46e6-8eab-d544d9184640\",\"user\":{\"id\":\"32178044\",\"login\":\"oh_bother\",\"display_name\":\"oh_bother\"},\"channel_id\":\"32178044\",\"redeemed_at\":\"2020-03-27T21:24:11.657497932Z\",\"reward\":{\"id\":\"c7c7a7a2-b124-475f-aabe-741f9b85c638\",\"channel_id\":\"32178044\",\"title\":\"TEST\",\"prompt\":\"ITS A TEST GIMMIE JSON\",\"cost\":100000,\"is_user_input_required\":true,\"is_sub_only\":false,\"image\":null,\"default_image\":{\"url_1x\":\"https://static-cdn.jtvnw.net/custom-reward-images/default-1.png\",\"url_2x\":\"https://static-cdn.jtvnw.net/custom-reward-images/default-2.png\",\"url_4x\":\"https://static-cdn.jtvnw.net/custom-reward-images/default-4.png\"},\"background_color\":\"#FA2929\",\"is_enabled\":true,\"is_paused\":false,\"is_in_stock\":true,\"max_per_stream\":{\"is_enabled\":false,\"max_per_stream\":0},\"should_redemptions_skip_request_queue\":false},\"user_input\":\"1234 *_#漢字\",\"status\":\"UNFULFILLED\"}}}"}}
+
+Got Message: {"type":"MESSAGE","data":{"topic":"channel-points-channel-v1.32178044","message":"{\"type\":\"reward-redeemed\",\"data\":{\"timestamp\":\"2020-03-27T21:24:34.627532969Z\",\"redemption\":{\"id\":\"d6d36f57-0392-4796-819b-8cb0516d5c5b\",\"user\":{\"id\":\"32178044\",\"login\":\"oh_bother\",\"display_name\":\"oh_bother\"},\"channel_id\":\"32178044\",\"redeemed_at\":\"2020-03-27T21:24:34.443493547Z\",\"reward\":{\"id\":\"c7c7a7a2-b124-475f-aabe-741f9b85c638\",\"channel_id\":\"32178044\",\"title\":\"TEST\",\"prompt\":\"ITS A TEST GIMMIE JSON\",\"cost\":100000,\"is_user_input_required\":true,\"is_sub_only\":false,\"image\":null,\"default_image\":{\"url_1x\":\"https://static-cdn.jtvnw.net/custom-reward-images/default-1.png\",\"url_2x\":\"https://static-cdn.jtvnw.net/custom-reward-images/default-2.png\",\"url_4x\":\"https://static-cdn.jtvnw.net/custom-reward-images/default-4.png\"},\"background_color\":\"#FA2929\",\"is_enabled\":true,\"is_paused\":false,\"is_in_stock\":true,\"max_per_stream\":{\"is_enabled\":false,\"max_per_stream\":0},\"should_redemptions_skip_request_queue\":false},\"user_input\":\"adumFace adumFace adumFace adumFace adumFace \",\"status\":\"UNFULFILLED\"}}}"}}
+
+Got Message: { "type": "PONG" }
+
+Message:
+"{\"type\":\"reward-redeemed\",\"data\":{\"timestamp\":\"2020-03-27T21:24:34.627532969Z\",\"redemption\":{\"id\":\"d6d36f57-0392-4796-819b-8cb0516d5c5b\",\"user\":{\"id\":\"32178044\",\"login\":\"oh_bother\",\"display_name\":\"oh_bother\"},\"channel_id\":\"32178044\",\"redeemed_at\":\"2020-03-27T21:24:34.443493547Z\",\"reward\":{\"id\":\"c7c7a7a2-b124-475f-aabe-741f9b85c638\",\"channel_id\":\"32178044\",\"title\":\"TEST\",\"prompt\":\"ITS A TEST GIMMIE JSON\",\"cost\":100000,\"is_user_input_required\":true,\"is_sub_only\":false,\"image\":null,\"default_image\":{\"url_1x\":\"https://static-cdn.jtvnw.net/custom-reward-images/default-1.png\",\"url_2x\":\"https://static-cdn.jtvnw.net/custom-reward-images/default-2.png\",\"url_4x\":\"https://static-cdn.jtvnw.net/custom-reward-images/default-4.png\"},\"background_color\":\"#FA2929\",\"is_enabled\":true,\"is_paused\":false,\"is_in_stock\":true,\"max_per_stream\":{\"is_enabled\":false,\"max_per_stream\":0},\"should_redemptions_skip_request_queue\":false},\"user_input\":\"adumFace adumFace adumFace adumFace adumFace \",\"status\":\"UNFULFILLED\"}}}"
+
+deserialize message:
+"{"type":"reward-redeemed","data":{"timestamp":"2020-03-27T21:24:34.627532969Z","redemption":{"id":"d6d36f57-0392-4796-819b-8cb0516d5c5b","user":{"id":"32178044","login":"oh_bother","display_name":"oh_bother"},"channel_id":"32178044","redeemed_at":"2020-03-27T21:24:34.443493547Z","reward":{"id":"c7c7a7a2-b124-475f-aabe-741f9b85c638","channel_id":"32178044","title":"TEST","prompt":"ITS A TEST GIMMIE JSON","cost":100000,"is_user_input_required":true,"is_sub_only":false,"image":null,"default_image":{"url_1x":"https://static-cdn.jtvnw.net/custom-reward-images/default-1.png","url_2x":"https://static-cdn.jtvnw.net/custom-reward-images/default-2.png","url_4x":"https://static-cdn.jtvnw.net/custom-reward-images/default-4.png"},"background_color":"#FA2929","is_enabled":true,"is_paused":false,"is_in_stock":true,"max_per_stream":{"is_enabled":false,"max_per_stream":0},"should_redemptions_skip_request_queue":false},"user_input":"adumFace adumFace adumFace adumFace adumFace ","status":"UNFULFILLED"}}}"
+    
+
+Formatted JSON Data
+{
+   "type":"MESSAGE",
+   "data":{
+      "topic":"channel-points-channel-v1.32178044",
+      "message":"{\"type\":\"reward-redeemed\",\"data\":{\"timestamp\":\"2020-03-27T21:24:34.627532969Z\",\"redemption\":{\"id\":\"d6d36f57-0392-4796-819b-8cb0516d5c5b\",\"user\":{\"id\":\"32178044\",\"login\":\"oh_bother\",\"display_name\":\"oh_bother\"},\"channel_id\":\"32178044\",\"redeemed_at\":\"2020-03-27T21:24:34.443493547Z\",\"reward\":{\"id\":\"c7c7a7a2-b124-475f-aabe-741f9b85c638\",\"channel_id\":\"32178044\",\"title\":\"TEST\",\"prompt\":\"ITS A TEST GIMMIE JSON\",\"cost\":100000,\"is_user_input_required\":true,\"is_sub_only\":false,\"image\":null,\"default_image\":{\"url_1x\":\"https://static-cdn.jtvnw.net/custom-reward-images/default-1.png\",\"url_2x\":\"https://static-cdn.jtvnw.net/custom-reward-images/default-2.png\",\"url_4x\":\"https://static-cdn.jtvnw.net/custom-reward-images/default-4.png\"},\"background_color\":\"#FA2929\",\"is_enabled\":true,\"is_paused\":false,\"is_in_stock\":true,\"max_per_stream\":{\"is_enabled\":false,\"max_per_stream\":0},\"should_redemptions_skip_request_queue\":false},\"user_input\":\"adumFace adumFace adumFace adumFace adumFace \",\"status\":\"UNFULFILLED\"}}}"
+   }
+}
+
+formatted message (after deserialize):
+{
+   "type":"reward-redeemed",
+   "data":{
+      "timestamp":"2020-03-27T21:24:34.627532969Z",
+      "redemption":{
+         "id":"d6d36f57-0392-4796-819b-8cb0516d5c5b",
+         "user":{
+            "id":"32178044",
+            "login":"oh_bother",
+            "display_name":"oh_bother"
+         },
+         "channel_id":"32178044",
+         "redeemed_at":"2020-03-27T21:24:34.443493547Z",
+         "reward":{
+            "id":"c7c7a7a2-b124-475f-aabe-741f9b85c638",
+            "channel_id":"32178044",
+            "title":"TEST",
+            "prompt":"ITS A TEST GIMMIE JSON",
+            "cost":100000,
+            "is_user_input_required":true,
+            "is_sub_only":false,
+            "image":null,
+            "default_image":{
+               "url_1x":"https://static-cdn.jtvnw.net/custom-reward-images/default-1.png",
+               "url_2x":"https://static-cdn.jtvnw.net/custom-reward-images/default-2.png",
+               "url_4x":"https://static-cdn.jtvnw.net/custom-reward-images/default-4.png"
+            },
+            "background_color":"#FA2929",
+            "is_enabled":true,
+            "is_paused":false,
+            "is_in_stock":true,
+            "max_per_stream":{
+               "is_enabled":false,
+               "max_per_stream":0
+            },
+            "should_redemptions_skip_request_queue":false
+         },
+         "user_input":"adumFace adumFace adumFace adumFace adumFace ",
+         "status":"UNFULFILLED"
+      }
+   }
+}
+
+
+message types:
+MESSAGE:
+"type": "RECONNECT" <- GET THE FUCK OUT
+
+
+"type": "PONG" <-string
+
+MESSAGE:    
+"type": "RESPONSE" <-string
+"nonce" <-return of string passed during login
+"error" "" <- blank or: ERR_BADMESSAGE, ERR_BADAUTH, ERR_SERVER, ERR_BADTOPIC.
+
+MESSAGE:        
+"type": "MESSAGE" <-string
+"data" <- JSON
+    "topic" <- alphanumerical string for what's signed in eg: "channel-points-channel-v1.<MYchannelId>"
+    "message" <- ***serialized*** JSON with stuff init
+        "type" <- "reward-redeemed" string (not sure if other types)
+        "data" <- JSON with all the meat
+            "timestamp" <- timestamp in string aka: "2020-03-27T21:24:34.443493547Z"
+            "redemption" <-JSON
+                "id" <- alphanumerical string, unique per redemption
+                "user" <- JSON
+                    "id" <- string alphanumerical user id
+                    "login" <-string user's account name (a-z, A-Z, 0-9, _, 4-16 chars)
+                    "display_name" <-string user's display name
+                "channel id" <- String of numbers, mine or theirs? why would this be here
+                "redeemed at" <- timestamp in string aka: "2020-03-27T21:24:34.443493547Z"
+                "reward" <- JSON
+                    "id" <- alphanumeric string unique for the channel point button
+                    "channel_id" <- numerical string my channel id again, but I gave myself the points? also is string
+                    "title" <- String, "TEST", this is the title of the button
+                    "prompt" <- String, the text you give for the button
+                    "cost" <- number, cost of the button (100000)
+                    "is_user_input_required" <- true or false, activates "user_input" in previous tree
+                    "is_sub_only" <- true or false
+                    "image" <- null? might be url for button image
+                    "default image" <-JSON
+                        "url_1x" <- String urls to reward images on twitch
+                        "url_4x"
+                        "url_8x"
+                    "background_color" <- "#FA2929" string of HTML color code
+                    "is_enabled" <- t or f
+                    "is_in_stock" < t or f, I wonder if this can even be false cause it shouldn't let you buy out of stock?
+                    "max_per_stream" <-JSON
+                        "is_enabled" <- true or false
+                        "max_per_stream" <- number
+                    "should_redemptions_skip_request_queue" <- true or false
+                "user_input" <- string of user's input, GONE if none required. (what is char length twitch? WHAT IS IT)
+                "status" <- string, is always "UNFULFILLED" like our souls.   
